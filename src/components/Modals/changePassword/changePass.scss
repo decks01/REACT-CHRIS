@@ -1,0 +1,54 @@
+
+.moda-change-password{
+    .col-12.col-md-6 {
+        /* text-align-last: center; */
+        display: flex;
+        justify-content: center;
+    }
+    .p-password {
+        position: relative;
+        display: inline-flex;
+        width: 100%;
+    }
+    input.p-inputtext.p-component.p-password-input {
+        width: 100% !important;
+    }
+    .modal-lg, .modal-xl {
+        --bs-modal-width: 657px;
+    }
+    .content-cahnge-password{
+        flex-wrap: wrap;
+    }
+    input.p-inputtext.p-component {
+        height: 40px;
+        // margin: 15px 0px;
+    }
+    .mt-2 {
+        margin-top: 0.5rem !important;
+        width: 100%;
+    }
+    
+    p{
+        margin: 0px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        letter-spacing: 0.02857em;
+        opacity: 1;
+        text-transform: none;
+        vertical-align: unset;
+        text-decoration: none;
+        color: rgb(123, 128, 154);
+        font-weight: 300;
+    }
+    .d-flex.content-cahnge-password {
+        .col-12.col-md-6{
+            margin-top: 22px;
+        }
+    }
+   
+}
+.moda-change-password input.p-inputtext.p-component {
+    height: 40px;
+    width: 90%;
+}
