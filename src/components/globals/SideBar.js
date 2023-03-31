@@ -17,6 +17,9 @@ const RouteLink = (props) => {
     colore[`Usuarios`].classList.remove("color-btn");
     colore[`Usuarios`].classList.remove("color-btn");
     colore[`Datos`].classList.remove("color-btn");
+    colore[`Components`].classList.remove("color-btn");
+
+
     if (id === color.id) {
       color.className += " color-btn";
     }
@@ -73,6 +76,10 @@ const SideBar = () => {
 
           <div className="link-routas">
             <RouteLink to="/prueba" nombre="Prueba" icon={<MdDashboard />} />
+          </div>
+
+          <div className="link-routas">
+            <RouteLink to="/components" nombre="Components" icon={<MdDashboard />} />
           </div>
 
           <div className="link-routas">

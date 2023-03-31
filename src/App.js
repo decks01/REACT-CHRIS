@@ -17,6 +17,7 @@ import Users from "./views/users/Users.js";
 import { useEffect } from "react";
 import Asociaciones from "./views/Asociaciones/Asociaciones.js";
 import { MyComponent } from "./components/globals/profile/prueba.js";
+import IndexComponents from "./components/globalsUse/components/IndexComponents.js";
 
 function App() {
   const token = localStorage.getItem("token");
@@ -44,6 +45,8 @@ function App() {
           <Route exact path="/prueba" element={<Prueba />} />
           <Route exact path="/asociaciones-vecinales" element={<Asociaciones />} />
           <Route exact path="/usuarios" element={<Users />} />
+          <Route exact path="/components" element={<IndexComponents />} />
+
         </Routes>
       </BrowserRouter>
     </>
