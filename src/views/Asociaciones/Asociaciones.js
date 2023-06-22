@@ -8,7 +8,7 @@ const Asociaciones = () => {
         <NavBar titule='Prueba'  />
        <div id="" className="">
          <h1>PRUEBA</h1>
-         <TableAsociacion />
+         {/* <TableAsociacion /> */}
        </div>
      </div>
     );

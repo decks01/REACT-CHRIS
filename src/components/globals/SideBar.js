@@ -11,22 +11,19 @@ const RouteLink = (props) => {
   const ColorClick = (id) => {
     const colore = document.getElementsByClassName("link-route");
     const color = document.getElementById(id);
-
     colore[`Inicio`].classList.remove("color-btn");
     colore[`Prueba`].classList.remove("color-btn");
     colore[`Usuarios`].classList.remove("color-btn");
     colore[`Usuarios`].classList.remove("color-btn");
     colore[`Datos`].classList.remove("color-btn");
     colore[`Components`].classList.remove("color-btn");
-
-
     if (id === color.id) {
       color.className += " color-btn";
     }
   };
 
   return (
-    <Link
+    <Link 
       onClick={(e) => ColorClick(props.nombre)}
       id={`${props.nombre}`}
       name="routas"
